@@ -1,2 +1,2 @@
-# yukichecktip.github.io
-tip calculator
+# tip calculator
+idk
