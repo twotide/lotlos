@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div style="text-align: center;">
+
+    <p class="title">home</p>
+    <h1>enter your order price</h1>
+
+    <input id="input1", class="input1", type="number",
+    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+    maxlength = "5"/> <br>
+
+    <h1>now enter your tip percent</h1>
+
+    <input id="input2", class="input1", type="number",
+    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+    maxlength = "2"/>
+
+    <button class="button1", onclick="calc()">calculate!</button> <br>
+
+    <h1 id="tiptext">tip is: </h1>
+
+    </div>
+</body>
