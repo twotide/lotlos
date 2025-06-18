@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "mont";
+    src: url(Mont-HeavyDEMO.otf);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"]
+{
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+body {background-color: rgb(43, 57, 82);}
+
+.title
+{
+    text-align: center;
+    font-family: "mont";
+    font-size: 5em;
+    color:rgb(225, 231, 240);
+    padding:0px;
+    margin:0px;
+}
+
+h1
+{
+    text-align: center;
+    font-family: "mont";
+    font-size: 4em;
+    color:rgb(193, 202, 212);
+    padding:0px;
+    margin:0px;
+}
+
+.input1
+{
+    text-align: center;
+    font-family: "mont";
+    font-size: 4em;
+    background-color: rgb(62, 74, 97);
+    border: none;
+    outline: none;
+    width:3em;
+
+    padding:0px;
+    margin:0px;
+
+    color: transparent;
+    text-shadow : 0 0 0 rgb(193, 202, 212);
+}
+
+.button1
+{
+    text-align: center;
+    font-family: "mont";
+    font-size: 4em;
+    color:rgb(217, 225, 235);
+    background-color: rgb(62, 74, 97);
+    outline:none;
+    border:none;
+
+    padding: 0px;
+    margin: 20px;
+}
