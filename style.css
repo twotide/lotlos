@@ -16,7 +16,50 @@ input[type="number"]
     -moz-appearance: textfield;
 }
 
-body {background-color: rgb(43, 57, 82);}
+body
+{
+    background-color: rgb(43, 57, 82);
+}
+
+.hometitle
+{
+    text-align: center;
+    font-family: "mont";
+    font-size: 5em;
+    color:rgb(225, 231, 240);
+
+    background-color: rgba(61, 87, 122, 0.5);
+    border-radius: 2em;
+    width: 15em;
+    height: 1.3em;
+
+    padding:0px;
+    margin:auto;
+}
+
+.keytide
+{
+    text-align: center;
+    font-family: "mont";
+    font-size: 4em;
+    color:rgb(207, 213, 221);
+
+    background-color: rgba(217, 229, 243, 0.2);
+    border-radius: 2em;
+    width: 20em;
+    height: 1.3em;
+
+    padding:0.1em;
+    margin:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img
+{
+    height:5em;
+    width:5em;
+}
 
 .title
 {
@@ -24,13 +67,19 @@ body {background-color: rgb(43, 57, 82);}
     font-family: "mont";
     font-size: 5em;
     color:rgb(225, 231, 240);
+
     padding:0px;
     margin:0px;
 }
 
+.food
+{
+    position: absolute;
+    transform: translateX(50em);
+}
+
 .subtitle
 {
-    text-align: center;
     font-family: "mont";
     font-size: 4em;
     color:rgb(207, 213, 221);
@@ -40,13 +89,11 @@ body {background-color: rgb(43, 57, 82);}
 
 .menu
 {
-    text-align: center;
     font-family: "mont";
-    font-size: 2em;
+    font-size: 3em;
     color:rgb(181, 187, 194);
     padding:0px;
     margin:0px;
-    
 }
 
 .bg
