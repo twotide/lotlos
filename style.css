@@ -55,11 +55,49 @@ body
     margin-right:auto;
 }
 
-img
+.items
 {
-    height:5em;
-    width:5em;
+    transform: translateX(30em);
+    background-color: rgba(61, 87, 122, 0.5);
+    border-radius: 10em;
+    width: 100em;
+    height: 50em;
 }
+
+.coords
+{
+    text-align: center;
+    font-family: "mont";
+    font-size: 3em;
+    color:rgb(199, 208, 214);
+    position: relative;
+    left: 950px;
+    top: -200px;
+
+    padding:0px;
+    margin:0px;
+}
+
+.lotlogo
+{
+    position: absolute;
+    top: -70px;
+    right: 1900px;
+
+    width: 50em;
+    height: 28em;
+}
+
+.map
+{
+    position: absolute;
+    left: 2100px;
+    bottom: 1050px;
+    width: 20em;
+    height: 12em;
+}
+
+
 
 .title
 {
@@ -72,10 +110,43 @@ img
     margin:0px;
 }
 
+.drinks
+{
+    img
+    {
+        height:5em;
+        width:5em;   
+    }
+    display:block;
+    position: absolute;
+    right: 1200px;
+    top: 50px;
+}
+
 .food
 {
+    img
+    {
+        height:5em;
+        width:5em;   
+    }
+    display:block;
     position: absolute;
-    transform: translateX(50em);
+    right: 600px;
+    top: 50px;
+}
+
+.treats
+{
+    img
+    {
+        height:5em;
+        width:5em;   
+    }
+    display:block;
+    position: absolute;
+    right: 100px;
+    top: 50px;
 }
 
 .subtitle
@@ -103,16 +174,6 @@ img
     border-radius: 10em;
     width: 55em;
     height: 50em;
-}
-
-h1
-{
-    text-align: center;
-    font-family: "mont";
-    font-size: 4em;
-    color:rgb(193, 202, 212);
-    padding:0px;
-    margin:0px;
 }
 
 .button1
