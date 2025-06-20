@@ -132,8 +132,8 @@ body
     }
     display:block;
     position: absolute;
-    right: 600px;
-    top: 50px;
+    right: 1100px;
+    top: 388px;
 }
 
 .treats
@@ -145,8 +145,8 @@ body
     }
     display:block;
     position: absolute;
-    right: 100px;
-    top: 50px;
+    right: 600px;
+    top: 388px;
 }
 
 .subtitle
