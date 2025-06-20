@@ -70,9 +70,9 @@ body
     font-family: "mont";
     font-size: 3em;
     color:rgb(199, 208, 214);
-    position: relative;
-    left: 950px;
-    top: -200px;
+    position: absolute;
+    left: 1950px;
+    top: 20px;
 
     padding:0px;
     margin:0px;
